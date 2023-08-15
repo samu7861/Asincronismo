@@ -12,3 +12,8 @@ setTimeout(()=>{
     console.log("hola mundo")
 }, 5000)
 
+function greetings(name){
+    return console.log(`hola ${name}`)
+}
+
+setTimeout(greetings, 2000, "samu")
